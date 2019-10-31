@@ -31,7 +31,7 @@ pageContext.setAttribute("names","hi~!~!~!~!~!");
 	<%=request.getAttribute("reqqq")%>입니다요.<br>
 	${reqqq}입니다잉.<br>
 	${requestScope.names[0]}<br>
-	${names}<br>
+	${names}<br><br>
 	파라미터값 num은?<%=request.getParameter("num") %>	<br>
 	${notice.title}<br>
 	${aa}<br>
